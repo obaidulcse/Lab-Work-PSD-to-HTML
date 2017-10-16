@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../images/header.jpg);
+    width: 100%;
+    min-height: 670px;
+    overflow: hidden;
+}
+header .wrapper{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header .wrapper .logo{
+    width: 20%;
+    float: left;
+    margin-top: 15px;
+    overflow: hidden;
+}
+header .wrapper .nav{
+    float: right;
+    width: 60%;
+}
+header .wrapper .logo .nav ul{}
+header .wrapper .nav ul li{
+    list-style: none;
+    float: left;
+    padding: 55px 10px;
+}
+header .wrapper  .nav ul li a{
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+    font-size: 15px;
+}
+header .wrapper .nav ul li a:hover{
+    color: #87D37C;
+    transition: 1s;
+}
+.slide_bar{}
+.slide_bar .wrapper{
+    width: 50%;
+    text-align: center;
+}
+.slide_bar .wrapper h2{
+    font-weight: bold;
+    color: white;
+    font-size: 28px;
+    padding-top: 27px;
+    padding-bottom: 10px;
+}
+.slide_bar .wrapper h1{
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid white;
+    width: 60%;
+    display: inline-block;
+}
+.slide_bar .wrapper h1 span{
+    color: #87D37C;
+}
+.slide_bar .wrapper h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+}
+.slide_bar .wrapper .logo_img {
+    padding-top: 250px;
+    border-radius: 10px;
+    opacity: .3;
+}
+.about{
+    width: 100%;
+    min-height: 180px;
+}
+.about .wrapper{
+    width: 60%;
+    margin: 0 auto;
+}
+.about .wrapper .about_us{text-align: center;}
+.about .wrapper .about_us h1{
+    font-size: 40px;
+    margin-top: 80px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.about .wrapper .about_us p{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+.about_content{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 250px;
+}
+.about_content .wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.about_content .wrapper .single_content{width: 25%;float: left;}
+.about_content .wrapper .single_content i{font-size: 100px;padding-bottom: 20px;}
+.about_content .wrapper .single_content h1{font-weight: bold;}
+.about_content .wrapper .single_content p{padding: 6px 20px;}
+.services{
+    width: 100%;
+    min-height: 200px;
+    background-color: #E1E1E1;
+}
+.services .wrapper{
+    width: 60%;
+    margin: 0 auto;
+}
+.services .wrapper .about_service{text-align: center;}
+.services .wrapper .about_service h1{
+    font-size: 40px;
+    margin-top: 80px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.services .wrapper .about_service p{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+.services_img{width: 100%;min-height: 400px;background-color: #E1E1E1;}
+.services_img .image{
+    text-align: center;
+    width: 100%;
+}
+.services_img .image .service_content{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    margin: 2.5%;
+    height: 242px;
+}
+.portfolio{
+    width: 100%;
+    min-height: 1154px;
+    background-color: #FDFAFA;
+}
+.portfolio .wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.portfolio .wrapper .our_portfolio{
+    text-align: center;
+}
+.portfolio .wrapper .our_portfolio h3{
+    padding-top: 160px;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 33px;
+}
+.portfolio .wrapper .our_portfolio p{
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 42px;
+}
+.portfolio .wrapper .portfolio_menu{
+    width:50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.portfolio .wrapper .portfolio_menu ul{
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+.portfolio .wrapper .portfolio_menu ul li{
+    list-style: none;
+    float: left;
+    background-color: #010101;
+    padding: 13px 1%;
+    margin: 1%;
+}
+.portfolio .wrapper .portfolio_menu ul li a{
+    color: #FDFEFE;
+    text-decoration: none;
+}
+.portfolio .wrapper .portfolio_menu ul li a:hover{
+    background-color: darkkhaki;
+    transition: 1s;
+}
+.portfolio .wrapper .images{
+    min-height: 800px;
+    margin: 0 auto;
+}
+.portfolio .wrapper .images .single_image{
+    width: 30%;
+    min-height: 300px;
+    float: left;
+    margin: 1.6%;
+    display: block;
+    overflow: hidden;
+}
+.portfolio .wrapper .images .single_image:first-child{
+    opacity: .2;
+}
+.pricing{
+    min-height: 770px;
+}
+.pricing .wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.pricing .wrapper .our_pricing{
+    text-align: center;
+}
+.pricing .wrapper .our_pricing h1{
+    padding-top: 75px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.pricing .wrapper .our_pricing p{
+    padding-top: 55px;
+    line-height: 20px;
+    color: #636263;
+    font-size: 18px;
+    margin-bottom: 53px;
+    width: 60%;
+    margin: 0 auto;
+}
+.pricing .wrapper .pricing_content{
+    background-color: #FDFAFA;
+}
+.pricing .wrapper .pricing_content .single_pricing{
+    min-height: 430px;
+    width: 20%;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 2.5%;
+    background-color: #39393A;
+    text-align: center;
+}
+.pricing .wrapper .pricing_content .single_pricing:hover{
+    background-color: #87D37C;
+    transition: 1s;
+}
+.pricing .wrapper .pricing_content .single_pricing .circle{
+    text-align: center;
+    border-radius: 100%;
+    color:#F9F8FC;
+    border: 3px solid #F9F8FC;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 25px 30px;
+}
+.pricing .wrapper .pricing_content .single_pricing .circle p{
+    border-bottom: none;
+    padding: 10%;
+}
+.pricing .wrapper .pricing_content .single_pricing p{
+    color: #F9F8FC;
+    border-bottom: 1px solid #F9F8FC;
+    box-sizing: border-box;
+    margin: 8%;
+}
+.pricing .wrapper .pricing_content .single_pricing button{
+    background-color: #FEFDFC;
+    padding: 7%;
+    margin: 2%;
+    border: none;
+    font-weight: bold;
+    color: #39393A;
+}
+.pricing .wrapper .pricing_content .single_pricing button:hover{
+    color: #87D37C;
+}
+.number{
+    background-image: url('../images/13.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 335px;
+    background-color: #50504F;
+}
+.number .wrapper{
+    width: 90%;
+    text-align: center;
+    padding-top: 35px;
+    margin: 0 auto;
+}
+.number .wrapper .single_box{
+    width: 20%;
+    float: left;
+    border: 1px solid #F7EFEF;
+    box-sizing: border-box;
+    margin: 2.5%;
+    padding: 5%;
+}
+.number .wrapper .single_box h3{
+    color: #F7EFEF;
+    font-weight: bold;
+    font-size: 50px;
+}
+.number .wrapper .single_box p{
+    color: #F7EFEF;
+    font-weight: bold;
+    font-size: 20px;
+}
+.form{
+    width: 100%;
+    margin: 0 auto;
+    min-height: 220px;
+    background-color: cyan;
+}
+.form .wrapper{
+    width: 50%;
+    padding-top: 30px;
+    text-align: center;
+    float: left;
+}
+.form .wrapper .form_content{
+    font-size: 20px;
+}
+.form .wrapper .form_content input{
+    width: 40%;
+    min-height: 35px;
+    margin: 10px;
+}
+.form .message{
+    width: 50%;
+    float: right;
+    padding-top: 40px;
+    min-height: 180px;
+}
+.form .message button{
+    font-size: 30px;
+    margin-top: 5px;
+    padding: 0px 20px;
+    background-color: orange;
+    border: none;
+    font-weight: bold;
+}
+.form .message button:hover{background-color: beige;transition: 1s;}
+footer{
+    width: 100%;
+    min-height: 70px;
+    background-color: #000101;
+}
+footer .wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+footer .wrapper .footer_content{
+    color: #C8C8C8;
+    font-size: 22px;
+    font-weight: bold;
+    float: left;
+    padding-top: 25px;
+    margin-left: 20%;
+    width: 40%;
+}
+footer .wrapper .social_icon{
+    float: right;
+    width: 40%;
+    padding-top: 15px;
+}
+footer .wrapper .social_icon ul{
+    margin: 0 auto;
+}
+footer .wrapper .social_icon ul li{
+    list-style: none;
+    float: left;
+    color: #FFFFFF;
+   margin: 2%;
+}
+footer .wrapper .social_icon ul li a{
+    text-decoration: none;
+   
+}
+footer .wrapper .social_icon ul li a i{
+    font-size: 35px;
+    color: #FFFFFF;
+}
+footer .wrapper .social_icon ul li a i:hover{
+    color: #87D37C;
+    transition: 1s;
+}
+.map{
+    width: 100%;
+    min-height: 460px;
+    background-image: url('../images/map.png');
+}
